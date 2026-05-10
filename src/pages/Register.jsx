@@ -104,6 +104,12 @@ function Register() {
           onChange={handleChange}
         />
 
+          <label className="block mb-2 font-medium text-gray-700">
+
+              Profile Picture
+
+            </label>
+
         <input
           type="file"
           accept="image/*"
